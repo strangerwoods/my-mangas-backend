@@ -46,6 +46,18 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{url('/') }}">{{ __('Home') }}</a>
                         </li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{route('admin.manga.index')}}">{{ __('Mangas') }}</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{route('admin.authors.index')}}">{{ __('Authors') }}</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{route('admin.publishers.index')}}">{{ __('Publishers') }}</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{route('admin.genres.index')}}">{{ __('Genres') }}</a>
+						</li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
